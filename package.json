@@ -1,0 +1,21 @@
+{
+    "name": "api_testing_playwright",
+    "version": "1.0.0",
+    "description": "API Testing project using Playwright",
+    "main": "index.js",
+    "scripts": {
+        "test": "playwright test",
+        "test:posts": "playwright test tests/api/posts.spec.js",
+        "test:users": "playwright test tests/api/users.spec.js",
+        "test:comments": "playwright test tests/api/comments.spec.js",
+        "report": "playwright show-report reports/html"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs",
+    "devDependencies": {
+        "@playwright/test": "^1.60.0",
+        "dotenv": "^17.4.2"
+    }
+}
